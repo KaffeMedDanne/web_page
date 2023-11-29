@@ -1,12 +1,45 @@
+.body {
+    display: flex;
+    flex-direction: column;
+}
+
 .header {
     background-color: #1f2937;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 100px;
     display: flex;
     justify-content: center;
     flex-direction: column;
+}
+
+.logocontainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    margin-bottom: 100px;
+}
+
+.mainhead {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 64px;
+}
+
+.lefthead {
+    height: 150px;
+    width: 350px;
+    flex-wrap: wrap;
+}
+
+.righthead {
+    height: 150px;
+    width: 350px;
+    background-color: gray;
 }
 
 .header-logo {
@@ -32,6 +65,9 @@ a {
 }
 
 ul {
+    display: flex;
+    gap: 1rem;
+
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -39,5 +75,8 @@ ul {
 
 .button {
     background-color: #3882f6;
-
+    color: #f9faf8;
+    width: 100px;
+    padding: 5px;
+    border-radius: 5px;
 }
