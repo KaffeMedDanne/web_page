@@ -1,0 +1,43 @@
+.header {
+    background-color: #1f2937;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header-logo {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.header-main {
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.header-sec {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+a {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.button {
+    background-color: #3882f6;
+
+}
