@@ -1,11 +1,5 @@
-.body {
-    display: flex;
-    flex-direction: column;
-}
-
 .header {
     background-color: #1f2937;
-    position: fixed;
     top: 0;
     left: 0;
     right: 0;
@@ -49,7 +43,7 @@
 
 .header-main {
     font-size: 48px;
-    font-weight: bold;
+    font-weight: bolder;
     color: #f9faf8;
 }
 
@@ -79,4 +73,34 @@ ul {
     width: 100px;
     padding: 5px;
     border-radius: 5px;
+}
+
+.body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.info {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    background-color: #3882f6;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
 }
