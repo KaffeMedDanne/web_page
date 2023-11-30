@@ -31,9 +31,9 @@
 }
 
 .righthead {
-    height: 150px;
-    width: 350px;
-    background-color: gray;
+    max-width: 400px;
+    height: 250px;
+    display: flex;
 }
 
 .header-logo {
@@ -89,23 +89,27 @@ ul {
     display: flex;
     justify-content: center;
     gap: 52px;
-    border-radius: 10px;
 }
 
 .box {
-    height: 100px;
-    width: 100px;
-    background-color: #3882f6;
+    height: 150px;
+    width: 150px;
+    border-style: solid;
+    border-color: #3882f6;
+    border-radius: 10px;
     display: flex;
-    justify-content: center;
     flex-direction: column;
     gap: 2rem;
+}
+
+.text {
+    text-align: center;
 }
 
 .content {
     display: flex;
     justify-content: center;
-    margin-top: 64px;
+    margin-top: 86px;
     background-color: #e5e7eb;
     padding: 46px;
     left: 0;
@@ -148,4 +152,14 @@ ul {
     align-items: center;
     gap: 74px;
     border-radius: 10px;
+}
+
+.footer {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 32px;
+    background-color: #1f2937;
+    color: #f9faf8;
+    text-align: center;
 }
