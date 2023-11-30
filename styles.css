@@ -21,7 +21,7 @@
 .mainhead {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 64px;
+    margin-bottom: 52px;
 }
 
 .lefthead {
@@ -72,7 +72,20 @@ ul {
     color: #f9faf8;
     width: 100px;
     padding: 5px;
-    border-radius: 5px;
+    outline: none;
+    border: none;
+    border-radius: 1em;
+    cursor: pointer;
+}
+
+#btnone {
+    border-style: solid;
+    border-color: #3882f6;
+}
+
+#btntwo {
+    border-style: solid;
+    border-color: #e5e7eb;
 }
 
 .info {
